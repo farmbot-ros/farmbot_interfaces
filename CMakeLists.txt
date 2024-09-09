@@ -16,6 +16,7 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Nav.action"
   "action/Obstacle.action"
+  "action/Waypoints.action"
   "srv/Reset.srv"
   "srv/Datum.srv"
   "srv/Gps2Ecef.srv"
@@ -29,6 +30,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Spawn.srv"
   "msg/Float32Stamped.msg"
   "msg/Float64Stamped.msg"
+  "msg/Waypoints.msg"
+  "msg/Waypoint.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
 
