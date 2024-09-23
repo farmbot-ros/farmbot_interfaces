@@ -1,12 +1,12 @@
 # Goal
-nav_msgs/Path initial_path
-std_msgs/Bool abort
+nav_msgs/Path mission
 ---
 # Result
-std_msgs/Empty plan_result
+geometry_msgs/Twist current_vel
+int16 index_wp_reached
+sensor_msgs/NavSatFix current_position
 ---
-#Feedback
-int16 wp_reached
-float32 speed
-float32  longitude
-float32  latitude
+# Feedback
+geometry_msgs/Twist current_vel
+int16 index_wp_reached
+sensor_msgs/NavSatFix current_position
