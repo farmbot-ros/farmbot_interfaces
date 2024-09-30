@@ -5,6 +5,7 @@ std_msgs/String robot_description
 ---
 # Result
 std_msgs/Bool success
+builtin_interfaces/Duration time_it_took
 ---
 #Feedback
 std_msgs/Int16 state
