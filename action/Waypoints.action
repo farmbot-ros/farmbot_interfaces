@@ -1,5 +1,5 @@
 # Goal
-farmbot_interfaces/Waypoints initial_path
+farmbot_interfaces/Waypoints mission
 std_msgs/String controller
 std_msgs/String robot_description
 ---

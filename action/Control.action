@@ -1,0 +1,10 @@
+# Goal
+farmbot_interfaces/Segment segment
+std_msgs/Int8 type
+---
+# Result
+std_msgs/Int8 return_code
+---
+#Feedback
+geometry_msgs/Twist twist
+std_msgs/Int32 distance
