@@ -1,4 +1,4 @@
-sensor_msgs/NavSatFix gps
+sensor_msgs/NavSatFix[] gps
 ---
 string message
-geometry_msgs/Pose ecef
+geometry_msgs/Pose[] ecef

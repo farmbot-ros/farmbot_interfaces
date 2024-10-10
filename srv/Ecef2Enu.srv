@@ -1,5 +1,5 @@
-geometry_msgs/Pose ecef
+geometry_msgs/Pose[] ecef
 geometry_msgs/Pose datum
 ---
 string message
-geometry_msgs/Pose enu
+geometry_msgs/Pose[] enu
