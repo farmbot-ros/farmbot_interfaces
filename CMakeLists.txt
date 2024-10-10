@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Waypoints.msg"
   "msg/Waypoint.msg"
   "msg/Segment.msg"
+  "msg/Segments.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
 
