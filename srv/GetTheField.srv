@@ -1,0 +1,3 @@
+string geojson_file
+---
+sensor_msgs/NavSatFix[] field
