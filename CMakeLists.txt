@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Threshold.srv"
   "srv/Trigger.srv"
   "srv/Spawn.srv"
+  "srv/GoToMap.srv"
   "msg/Float32Stamped.msg"
   "msg/Float64Stamped.msg"
   "msg/Waypoints.msg"
